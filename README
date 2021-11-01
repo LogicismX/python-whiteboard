@@ -1,7 +1,6 @@
-Linux Electronic Whiteboard with Wiimote
-========================================
+# Linux Electronic Whiteboard with Wiimote
 
-With this software you can build and operate a low-cost electronic 
+With this software you can build and operate a low-cost electronic
 whiteboard. You only need a wiimote, an IR pen and a great OS: gnu/linux.
 
 If you have git installed on your system you can get the latest (development)
@@ -15,13 +14,12 @@ http://github.com/pnegre/python-whiteboard/downloads
 It's recommended to disable the desktop effects, to avoid program crashes and
 malfunctions.
 
-
-Compilation and installation
-----------------------------
+## Compilation and installation
 
 Use make:
 
 $ make all
+
 # make install
 
 If you want to create a .deb package:
@@ -35,9 +33,7 @@ Required packages:
 - To run make: libqt5-dev qt5-dev-tools python-qt5-dev
 - To build the deb package: build-essential fakeroot dpkg-dev debhelper
 
-
-Configuration
--------------
+## Configuration
 
 The configuration screen has been integrated into the main screen. Siply push
 the button labeled "Show configuration".
@@ -46,9 +42,7 @@ There are three tabs. In the first one, you can assign actions to the offscreen
 areas. In the second one, you can manage the wiimote devices. And in the third
 one, you'll find some more options.
 
-
-Calibration
------------
+## Calibration
 
 The calibration process can be done in two ways:
 
@@ -65,9 +59,7 @@ After that, you simply push "activate".
 In the calibration screen, you can use the UP/DOWN keys to actually move
 inwards the calibration points, making it easier to do the process.
 
-
-Translations
-------------
+## Translations
 
 If you want to contribute with some translations, make sure you have the proper
 tools installed on your system. In Ubuntu/Debian you'll need the following packages:
@@ -90,4 +82,16 @@ you first have to generate the .ts file (look at the "generate_trans.sh".
 
 Have fun!
 
+## Logicism
 
+Install dependencies
+
+```
+pip3 install future pyqt5 numpy
+```
+
+Bluetooth Module (OS specific)
+
+- macOS: `lightblue` (https://github.com/0-1-0/lightblue-0.4)
+- Windows: `pybluez`
+- Linux: `pybluez`
