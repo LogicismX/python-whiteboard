@@ -96,7 +96,7 @@ GUI Toolkit (pyqt5)
 
 Bluetooth Module (OS specific)
 
-> Note: `pip install pybluez` only works for python2
+> Note: `pip install pybluez` only works for python2 or `python 3.7.7`
 
 - macOS: `lightblue` (https://github.com/0-1-0/lightblue-0.4)
 - Windows: `pybluez`
