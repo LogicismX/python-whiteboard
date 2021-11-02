@@ -87,10 +87,12 @@ Have fun!
 Install dependencies
 
 ```
-pip3 install future pyqt5 numpy
+pip install future pyqt5 numpy
 ```
 
 Bluetooth Module (OS specific)
+
+> Note: `pip install pybluez` only works for python2
 
 - macOS: `lightblue` (https://github.com/0-1-0/lightblue-0.4)
 - Windows: `pybluez`
