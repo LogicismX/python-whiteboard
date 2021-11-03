@@ -100,4 +100,4 @@ Bluetooth Module (OS specific)
 
 - macOS: `lightblue` (https://github.com/0-1-0/lightblue-0.4)
 - Windows: `pybluez`
-- Linux: `pybluez`
+- Linux: `sudo apt install python3-bluez`
