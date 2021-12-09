@@ -92,7 +92,7 @@ pip install future numpy
 
 GUI Toolkit (pyqt5)
 
- > Note: `pip isntall pyqt5` only works for python3. Workaround: `pip install python-qt5` (Unofficial version for python2)
+ > Note: `pip install pyqt5` only works for python3. Workaround: `pip install python-qt5` (Unofficial version for python2)
 
 Bluetooth Module (OS specific)
 
